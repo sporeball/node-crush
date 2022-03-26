@@ -1,0 +1,40 @@
+{
+  "name": "node-crush",
+  "version": "0.0.0",
+  "description": "crush JavaScript files - reduce file size by 20% or more",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sporeball/node-crush.git"
+  },
+  "keywords": [
+    "compress",
+    "compressor",
+    "min",
+    "minify",
+    "minifier",
+    "minification",
+    "optimize",
+    "optimizer",
+    "optimization",
+    "pack",
+    "packer",
+    "uglify",
+    "uglifier",
+    "terser",
+    "js1k"
+  ],
+  "author": "sporeball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sporeball/node-crush/issues"
+  },
+  "homepage": "https://github.com/sporeball/node-crush#readme"
+}
