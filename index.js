@@ -52,7 +52,7 @@ export default function crush(input) {
       input = input.split(e).join(c) + c + e
   }
   c = input.split('"').length < input.split("'").length ? (B = '"', /"/g) : (B = "'", /'/g);
-  res = '_=' + B + input.replace(c, '\\' + B) + B + ';for(Y in $=' + B + m + B + ')with(_.split($[Y]))_=join(pop());eval(_)';
+  res = 'let _=' + B + input.replace(c, '\\' + B) + B + ';for(let Y of ' + B + m + B + ')with(_.split(Y))_=join(pop());eval(_)';
 
   return res;
 }
