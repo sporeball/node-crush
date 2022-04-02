@@ -1,6 +1,6 @@
 # node-crush
 
-<a href="https://www.npmjs.com/package/node-crush"><img src="https://img.shields.io/npm/v/node-crush" /></a>
+<a href="https://www.npmjs.com/package/@sporeball/node-crush"><img src="https://img.shields.io/npm/v/@sporeball/node-crush" /></a>
 
 > crush JavaScript files - reduce file size by 20% or more
 
@@ -15,7 +15,7 @@ as mentioned above, it also **requires an eval** for decompression; make sure yo
 
 ## install
 ```
-$ npm install node-crush
+$ npm install @sporeball/node-crush
 ```
 
 ## API
