@@ -1,5 +1,7 @@
 # node-crush
 
+<a href="https://www.npmjs.com/package/node-crush"><img src="https://img.shields.io/npm/v/node-crush" /></a>
+
 > crush JavaScript files - reduce file size by 20% or more
 
 a port of [Aivo Paas](https://twitter.com/aivopaas)' tool [JSCrush](http://www.iteral.com/jscrush) for the *modren era* -- TypeScript declarations, no leaking to the global scope, etc.
