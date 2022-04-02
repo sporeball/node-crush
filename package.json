@@ -1,6 +1,6 @@
 {
   "name": "@sporeball/node-crush",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "crush JavaScript files - reduce file size by 20% or more",
   "type": "module",
   "exports": "./index.js",
